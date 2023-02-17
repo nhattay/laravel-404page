@@ -1,0 +1,26 @@
+{
+    "name": "nhattay/laravel-404page",
+    "description": "Laravel custom 404 page",
+    "autoload": {
+        "psr-4": {
+            "Nhattay\\Laravel404page\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nhattay"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nhattay\\Laravel404page\\Laravel404PageProvider"
+            ]
+        }
+    }
+}
